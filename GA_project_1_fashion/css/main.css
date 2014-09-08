@@ -1,5 +1,19 @@
-body{font: 14px/19px 'Lato', sans-serif; margin: 50px;}
-    h1{font-size: 3em; font-weight: lighter; margin-bottom: 5px; line-height:20px;}
-    h4{font-size: 2em; font-weight: lighter; margin-bottom: 25px; line-height:5px;}
-    .maroon{color:#8b0807;}
-    .grey{color:#d6d5d7;}
+body{font-size: 14px/24px; font-family:'Lato', sans-serif; font-weight:100; margin: 50px;}
+    h1{font-size: 3.5em; margin-bottom: 5px; line-height:20px; font-weight:100;}
+    h4{font-size: 1.5em; margin-bottom: 25px; line-height:5px; font-weight:100;}
+    .maroon{color: #DA4545;}
+    .grey{color: #d6d5d7;}
+    #headernav{color: #d6d5d7;}
+    a{text-decoration: none; margin-right: 15px; color: #d6d5d7; padding-bottom: .25em}
+    h2{font-weight:100;font-size:2em;margin-bottom: 5px;margin-top: 45px;}
+    h3{font-weight:100;font-size:2em;margin-bottom: 5px; margin-top: 5px;}
+    .greyline{border-bottom: thin solid #d6d5d7}
+    .copy{font-size:1.5em/3.5em;}
+    p{font-size: 1em; line-height: 1.5em;}
+    p.introduction:first-letter {font-size : 6em; margin-right:10px; margin-top: 0px; margin-bottom: 0px;
+ font-weight : 100;
+ float : left;
+ width : 1em;
+ color : #d6d5d7;
+ line-height: .95em;;
+ }
