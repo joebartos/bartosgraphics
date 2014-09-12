@@ -118,7 +118,9 @@ body{
     
     .redline{
         border-right: thin solid #000000; 
-        color: #DA4545; font-size: 1em; line-height: 1em;
+        color: #DA4545; 
+        font-size: 1em; 
+        line-height: 1em;
     	padding-right: 10px; 
         padding-left: 5px; 
         margin: 0px; 

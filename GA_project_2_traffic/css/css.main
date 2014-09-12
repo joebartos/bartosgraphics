@@ -1,0 +1,74 @@
+.shape-shifter1 {
+  border-radius: 50%;
+  width: 150px;  
+  height: 150px;
+  background-color: white;
+  margin: 25px;  
+  transition: width 2s ease 1s;
+  cursor: pointer;
+}
+
+.shape-shifter1:hover{
+  background-color: red;
+  opacity: .5;
+  width: 150px;
+  transition: width 0 ease 1s;
+  }
+
+.shape-shifter2 {
+  border-radius: 50%;
+  width: 150px;  
+  height: 150px;
+  background-color: white;
+  margin: 25px;  
+  transition: width 2s ease 1s;
+  cursor: pointer;
+}
+  
+.shape-shifter2:hover{
+  background-color: yellow;
+  opacity: .5;
+  width: 150px;
+  transition: width 0 ease 1s;
+  }
+
+.shape-shifter3 {
+  border-radius: 50%;
+  width: 150px;  
+  height: 150px;
+  background-color: white;
+  margin: 25px;  
+  transition: width 2s ease 1s;
+  cursor: pointer;
+}
+  
+.shape-shifter3:hover{
+  background-color: green;
+  opacity: .5;
+  width: 150px;
+  transition: width 0 ease 1s;
+  }
+
+.light{
+  height: 550px;
+  width: 200px;
+  display: inline-block;
+  background-color: grey;
+  float: left;
+}
+
+.buttonspace{
+  height: 550px;
+  width: 200px;
+  float: right;
+ 
+  }
+
+.button{
+  height: 150;
+  width:150px;
+  border-color: black;
+  border-style: solid;
+  border-width:2px;
+  
+}
