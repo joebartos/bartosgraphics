@@ -1,3 +1,18 @@
+
+.light{
+  height: 550px;
+  width: 200px;
+  display: inline-block;
+  background-color: grey;
+ }
+
+.buttonspace{
+  height: 550px;
+  width: 200px;
+  display: inline-block;
+  background-color: red;
+}
+
 .shape-shifter1 {
   border-radius: 50%;
   width: 150px;  
@@ -49,26 +64,28 @@
   transition: width 0 ease 1s;
   }
 
-.light{
-  height: 550px;
-  width: 200px;
-  display: inline-block;
-  background-color: grey;
-  float: left;
-}
-
-.buttonspace{
-  height: 550px;
-  width: 200px;
-  float: right;
- 
-  }
-
 .button{
-  height: 150;
+  height: 75px;
   width:150px;
   border-color: black;
   border-style: solid;
-  border-width:2px;
+  border-width:3px;
+  font-family: sans-serif;
+  font-size: 48px;
+  text-align: center;
+  margin-left: 25px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  transition: width 2s ease 1s;
+  cursor: pointer;
   
-}
+.button:hover{
+  background-color: #B2CCCC;
+  opacity: .5;
+  width: 150px;
+  height: 75px;
+  transition: width 0 ease 1s;
+  }
+  
+ 
+  
