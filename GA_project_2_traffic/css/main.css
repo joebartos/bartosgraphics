@@ -2,15 +2,14 @@
 .light{
   height: 550px;
   width: 200px;
-  display: inline-block;
+  float: left;
   background-color: gray;
  }
 
 .buttonspace{
   height: 550px;
   width: 200px;
-  display: inline-block;
-  background-color: red;
+  float: left;
 }
 
 .shape-shifter1 {
@@ -74,14 +73,15 @@
   font-size: 48px;
   text-align: center;
   margin-left: 25px;
-  margin-top: 75px;
-  margin-bottom: 75px;
+  margin-top: 70px;
+  margin-bottom: 90px;
   line-height: 75px;
   transition: width 2s ease 1s;
   cursor: pointer;
   diplay: block;
+}
   
-.button: hover{
+.button:hover{
   background-color: gray;
   opacity: .5;
   width: 150px;
@@ -90,4 +90,3 @@
   }
   
  
-  
