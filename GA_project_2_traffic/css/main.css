@@ -1,12 +1,12 @@
 
-.light{
+#light{
   height: 550px;
   width: 200px;
   float: left;
   background-color: gray;
  }
 
-.buttonspace{
+#buttonspace{
   height: 550px;
   width: 200px;
   float: left;
