@@ -9,23 +9,23 @@
       </script>
   </head>
 
-  <body id="borderleft">
-    <div id="light">
-      <div class="shape-shifter1">
+  <body id="TrafficLight">
+    <div id="lightBox">
+      <div id="green" class="light">
       </div>
-      <div class="shape-shifter2">
+      <div id="yellow" class="light">
       </div>
-      <div class="shape-shifter3">
+      <div id="red" class="light">
       </div>
     </div>
 
-      <div id="buttonspace">
-        <p class="button">STOP
-        </p>
-        <p class="button">SLOW
-        </p>
-        <p class="button">GO
-        </p>
-      </p>
-      </p>
+    <div id="controls">
+      <p class="button" 
+      onclick="buttonClick('green')">GO</p>
+      <p class="button"
+      onclick="buttonClick('yellow')">SLOW</p>
+      <p class="button"
+      onclick="buttonClick('red')">STOP</p>
+    </div>
+  </body>
     </html>
