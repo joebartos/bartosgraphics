@@ -1,0 +1,55 @@
+.thumbStrip {
+	height: 100px;
+}
+
+.thumb {
+	border-color: #b7c3c2;
+	border-width: 3px;
+	margin-right: 5px;
+	height: 73px;
+	width: 106px;
+	float: left;
+	border-style: solid;
+	display: block;
+}
+
+.thumb:hover {
+	border-color: red;
+	border-width: 3px;
+}
+
+.navigateL {
+	height: 48px;
+	width: 100;
+	font-family: sans-serif;
+	font-size: 14px;
+	float: left;
+}
+
+.navigateR {
+	height: 48px;
+	width: 100;
+	font-family: sans-serif;
+	font-size: 14px;
+	float: right;
+}
+
+.FL {
+	text-align: left;
+}
+
+.FR {
+	text-align: right;
+	float: right;
+}
+
+.navBlock {
+	display: block;
+	height: 50px;
+	width: 624px;
+	font-weight: 900;
+	display: block;
+}
+
+.bigArt {
+}
