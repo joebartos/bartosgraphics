@@ -11,28 +11,22 @@
 
   <body id="SlideShow">
 
-  	<div class="thumbStrip">
-    	<div class="thumb">
-    	<img src="img/jbWeb14_KbookThumb1.jpg"/> 
-    	</div>
-    	<div class="thumb">
-    		<img src="img/jbWeb14_KbookThumb2.jpg"/> 
-    	</div>
-    	<div class="thumb">
-    		<img src="img/jbWeb14_KbookThumb3.jpg"/> 
-    	</div>
-    	<div class="thumb">
-    		<img src="img/jbWeb14_KbookThumb4.jpg"/> 
-    	</div>
-    	<div class="thumb">
-    		<img src="img/jbWeb14_KbookThumb5.jpg"/> 
-    	</div>
-    	<div class="thumb">
-    		<img src="img/jbWeb14_KbookThumb6.jpg"/> 
-		</div>
+  	<div id="thumbStrip">
+    	<div class="thumb" onClick="changePic(0)">
+    	  <img src="img/jbWeb14_KbookThumb1.jpg"/> </div>
+    	<div class="thumb" onClick="changePic(1)">
+    		<img src="img/jbWeb14_KbookThumb2.jpg"/> </div>
+    	<div class="thumb" onClick="changePic(2)">
+    		<img src="img/jbWeb14_KbookThumb3.jpg"/> </div>
+    	<div class="thumb" onClick="changePic(3)">
+    		<img src="img/jbWeb14_KbookThumb4.jpg"/> </div>
+    	<div class="thumb" onClick="changePic(4)">
+    		<img src="img/jbWeb14_KbookThumb5.jpg"/> </div>
+    	<div class="thumb" onClick="changePic(5)">
+    		<img src="img/jbWeb14_KbookThumb6.jpg"/> </div>
   	</div>
 
-  	<div class= "navBlock">
+  	<div id= "navBlock">
   		<div class= "navigateL" class="FL">
   			<p>&#9664; PREVIOUS</p>
   		</div>
@@ -41,8 +35,8 @@
 		</div>
 	</div>
 
-	<div class="bigArt">
-		<img src="img/jbWeb14_KbookBig1.jpg"/>
+	<div id= "bigArt">
+		<img id= "mainImage" src="img/jbWeb14_KbookBig1.jpg"/>
 	</div>
   
   </body>

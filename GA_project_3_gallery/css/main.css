@@ -1,5 +1,6 @@
-.thumbStrip {
+#thumbStrip {
 	height: 100px;
+	width: 100%;
 }
 
 .thumb {
@@ -10,7 +11,10 @@
 	width: 106px;
 	float: left;
 	border-style: solid;
-	display: block;
+	display: inline-block;
+	cursor: pointer;
+	/*using big images in thumb overflow: hidden;
+	.thumb img{ height: 80px;}*/
 }
 
 .thumb:hover {
@@ -25,6 +29,9 @@
 	font-size: 14px;
 	float: left;
 }
+
+/*position: absolute  botom: 0px
+make container--position: relative;*/
 
 .navigateR {
 	height: 48px;
@@ -43,13 +50,10 @@
 	float: right;
 }
 
-.navBlock {
+#navBlock {
 	display: block;
 	height: 50px;
 	width: 624px;
 	font-weight: 900;
 	display: block;
-}
-
-.bigArt {
 }
