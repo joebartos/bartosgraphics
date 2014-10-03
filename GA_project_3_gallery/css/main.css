@@ -22,7 +22,7 @@
 	border-width: 3px;
 }
 
-.navigateL {
+#navigateL {
 	height: 48px;
 	width: 100;
 	font-family: sans-serif;
@@ -30,15 +30,24 @@
 	float: left;
 }
 
+#navigateL:hover{
+	color: red;
+}
+
+
 /*position: absolute  botom: 0px
 make container--position: relative;*/
 
-.navigateR {
+#navigateR {
 	height: 48px;
 	width: 100;
 	font-family: sans-serif;
 	font-size: 14px;
 	float: right;
+}
+
+#navigateR:hover {
+	color: red;
 }
 
 .FL {
