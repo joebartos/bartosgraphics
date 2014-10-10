@@ -1,0 +1,24 @@
+var userchoice="rock":
+var computerChoice = "paper";
+var= winner;
+
+var userWins = ["rockscissors", "paperrock"' "scissorspaper"];
+
+function evaluate(){
+if (userChoice==computerChoice=="paper") {
+	alert ('tie');
+} else {
+
+var outCome = userChoice + computerChoice:
+//each loop==. is a method
+$.each(each(userWins, function(index, value){
+	if (outCome==value){
+	winner = "User";
+	alert ('You win')
+	return false;
+	} else {
+	winner = "winner = "computer";
+	alert ('You lose')
+	}
+})
+evaluate()

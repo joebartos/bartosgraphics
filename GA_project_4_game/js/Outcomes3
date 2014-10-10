@@ -1,0 +1,31 @@
+var userchoice="rock":
+var computerChoice = "paper";
+
+var userWins = ["rockscissors", "paperrock"' "scissorspaper"];
+
+var choices = ["rock, "paper"' "scissors"];
+
+computerChoice = choices[Math.random()*choices.length];
+
+function evaluate(){
+var msg = "computer Wins!";
+if (userChoice==computerChoice) {
+	msg ="tie";
+} else {
+
+var outCome = userChoice + computerChoice;
+
+
+
+//each is a loop  .xxx is a method
+$.each(each(userWins, function(index, value){
+	if (outCome==value){
+	msg = "You win"
+	}
+});
+}
+return msg;
+//returning value (answer), same as below
+}
+var outcomeMsg = evaluate ();
+alert(outcomeMsg);

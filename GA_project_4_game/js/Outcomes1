@@ -1,0 +1,10 @@
+var userchoice="rock":
+var computerChoicde = "paper";
+var= winner;
+
+if (userChoice=="rock" && computerChoice=="paper") {
+	winner = "Computer";
+
+} else if (userChoice=="scissors"scissors" && computerChoice=="paper") {
+	winner = "user":
+}
