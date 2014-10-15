@@ -3,16 +3,16 @@ var choices = ["rock", "paper", "scissors"];
 var computerChoice = choices[Math.floor(Math.random()*choices.length)];
 var userWins = ["rockscissors", "paperrock", "scissorspaper"];}
 
-function evaluate(){
-var msg = "Computer Wins!";
-if (userChoice==computerChoice) {
-msg ="tie";
-} else {
-var outCome = userChoice + computerChoice;
-//each is a loop  .xxx is a method
-$.each(userWins, function(index, value){
-if (outCome==value){msg = "You win!";}});
+function evaluate()
+{
+	var msg = "Computer Wins!";
+	if (userChoice==computerChoice) 
+	{msg ="tie";} 
+	else {var outCome = userChoice + computerChoice;
+		$.each(userWins, function(index, value)
+			{if (outCome==value){msg = "You win!";});
 }
+//each is a loop  .xxx is a method
 return msg;
 //returning value (answer), same as below
 }
