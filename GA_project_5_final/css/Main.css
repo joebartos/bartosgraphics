@@ -1,149 +1,141 @@
 body{
-font-size: 20px; 
-line-height:24px; 
-font-family:"HelveticaNeue-Light", sans-serif; 
-font-weight:300; 
-height: 750px;
-width: 826px;
+font-size: 12px; line-height:14px; 
+font-family:"HelveticaNeue", sans-serif; font-weight:200; 
+height: 750px; width: 826px;
 }
 
-.client {
-height: 26px;
-width: 190px;	
+#top{height: 155px; width: 830px; border-bottom: solid 4px #BE1419;}
+
+.navTop {
+float:right; height: 20px; width: 100px;
+font-size: .9em; font-weight: 800;
+text-align: center; font-style: oblique;
 }
+
+#banner{
+height: 155px; width: 285px;
+float: left;
+}
+
+#design {
+height: 125px; width: 500px; line-height:7em; 
+font-family:"Times New Roman", Times, serif; 
+font-weight:200; font-size: 2em; float: left;
+text-align: left; font-style: oblique; letter-spacing: 2px
+}
+
+#and{
+font-weight:900; font-size:.66em; color:#BE1419;
+font-family:"HelveticaNeue", sans-serif; font-style: normal;
+}
+
+#navStrip {height: 20px; width: 541px; float: right;}
+
+#clientPanel{height: 595px; width: 190px; float: left;}
+
+.genre {
+height: 10px; width: 168px; float: left; line-height: 2em;
+font-weight:200; text-align: center; vertical-align: text-center;
+}
+
+.client {height: 26px; width: 180px;}
 
 .clientM {
-height: 16px;
-width: 168px;
-float: left;
-background: linear-gradient(to bottom right, white, #D4DAEF, white);
-font-size: .8em;
-font-weight:800;
-text-align: center;
-margin-bottom: 10px;
-margin-right: 22px;
+height: 16px; width: 168px; float: left;
+background: -webkit-linear-gradient(left, white, #D4DAEF, white);
+/* For Safari 5.1 to 6.0 */
+background: -o-linear-gradient(right, white, #D4DAEF, white);
+/* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(right, white, #D4DAEF, white);
+/* For Firefox 3.6 to 15 */
+background: linear-gradient(to right, white, #D4DAEF, white);
+/* Standard syntax (must be last) */
+font-size: .8em; font-weight:800; text-align: center;
+margin-bottom: 10px; margin-right: 22px;
 }
 
 .clientK {
-height: 16px;
-width: 168px;
-float: left;
-background: linear-gradient(to bottom right, white, #EFC8C0, white);
-font-size: .8em;
-font-weight:800;
-text-align: center;
-margin-bottom: 10px;
-margin-right: 22px;
+height: 16px; width: 168px; float: left;
+background: -webkit-linear-gradient(left, white, #EFC8C0, white);
+background: -o-linear-gradient(right, white, #EFC8C0, white);
+background: -moz-linear-gradient(right, white, #EFC8C0, white);
+background: linear-gradient(to right, white, #EFC8C0, white);
+font-size: .8em; font-weight:800; text-align: center;
+margin-bottom: 10px; margin-right: 22px;
 }
 
 .clientE {
-height: 16px;
-width: 168px;
-float: left;
-background: linear-gradient(to bottom right, white, #C5D6B9, white);
-font-size: .8em;
-font-weight:800;
-text-align: center;
-margin-bottom: 10px;
-margin-right: 22px;
+height: 16px; width: 168px; float: left;
+background: -webkit-linear-gradient(left, white, #C5D6B9, white);
+background: -o-linear-gradient(right, white, #C5D6B9, white);
+background: -moz-linear-gradient(right, white, #C5D6B9, white);
+background: linear-gradient(to right, white, #C5D6B9, white);
+font-size: .8em; font-weight:800; text-align: center;
+margin-bottom: 10px; margin-right: 22px;
 }
 
 .clientP {
-height: 16px;
-width: 168px;
-float: left;
-background: linear-gradient(to bottom right, white, #FEDBB4, white);
-font-size: .8em;
-font-weight:800;
-text-align: center;
-margin-bottom: 10px;
-margin-right: 22px;
+height: 16px; width: 168px; float: left;
+background: -webkit-linear-gradient(left, white, #FEDBB4, white);
+background: -o-linear-gradient(right, white, #FEDBB4, white);
+background: -moz-linear-gradient(right, white, #FEDBB4, white);
+background: linear-gradient(to right, white, #FEDBB4, white);
+font-size: .8em; font-weight:800;text-align: center;
+margin-bottom: 10px; margin-right: 22px;
 }
 
 .clientC {
-height: 16px;
-width: 168px;
-float: left;
-background: linear-gradient(to bottom right, white, #DFCCE4, white);
-font-size: .8em;
-font-weight:800;
-text-align: center;
-margin-bottom: 10px;
-margin-right: 22px;
+background: -webkit-linear-gradient(left, white, #DFCCE4, white);
+background: -o-linear-gradient(right, white, #DFCCE4, white);
+background: -moz-linear-gradient(right, white, #DFCCE4, white);
+background: linear-gradient(to right, white, #DFCCE4, white);
+height: 16px; width: 168px; float: left;
+font-size: .8em; font-weight:800; text-align: center;
+margin-bottom: 10px; margin-right: 22px;
 }
 
-.genre {
-height: 35px;
-width: 190px;
-float: left;
-font-weight:200;
-text-align: center;
-vertical-align: text-center;
-}
+#gallery{height:595px; width:636px; float:left;}
 
-.navTop {
-height: 25px;
-float: left;
-font-size: .9em;
-font-weight:800;
-text-align: center;
-font-style: oblique;
-}
 
-.thumb {
-height: 110px;
-width: 106px;
-float: left;
-}
+#thumbStrip {height: 70px; width: 636px; float: left;}
 
-#top{
-height: 155px;
-width: 830px;	
-}
+.thumb {height: 60px; width: 106px; float: left;}
 
-#clientPanel{
-height: 595px;
-width: 190px;	
-}
+.thumb:hover {opacity: .5;}
 
-#gallery{
-height: 595px;
-width: 636px;	
-}
+#navigateL {height: 48px; width: 95px; font-weight: 800; float: left;}
 
-#thumbStrip {
-height: 110px;
-width: 636px;
-}
+#navigateL:hover{color: red;}
 
-#bigPic {
-height: 400px;
-width: 636px;
-}
+/*position: absolute  bottom: 0px
+make container--position: relative;*/
 
-#navBottom {
-height: 85px;
-width: 636px;
-}
+#navigateR {height: 48px; width: 95px; font-weight: 800; float: right;}
 
-#next {
-height: 85px;
-width: 95px;
-float: left;
-}
+#navigateR:hover {color: red;}
+
+.FL {text-align: left;}
+
+.FR {text-align: right; float: right;}
+
+#navBlock {display: block; height: 50px; width: 624px; font-weight: 900;}
+
+#bigPic {height: 400px; width: 636px; margin-top: 15px; float: left;}
+
+#navBottom {height: 85px; width: 636px; background-color: green; float: left;}
 
 #prev {
-height: 85px;
-width: 95px;
-float: right;
+height: 85px; width: 95px; float: right;
+line-height:3em; font-size: .8em;
+text-align: left;
 }
 
-#clientInfo {
-font-size: .9em;
-text-align: center;
+#clientInfo {font-size: .9em; text-align: center;}
+
+#clientName {font-weight:800; text-align: center;}
+
+#next {
+height: 85px; width: 95px; float: left;
+line-height:3em; font-size: .8em; text-align: right;
 }
 
-#clientName {
-font-weight:800;
-text-align: center;
-}
