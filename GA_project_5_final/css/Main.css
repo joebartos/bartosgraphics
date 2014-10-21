@@ -1,0 +1,149 @@
+body{
+font-size: 20px; 
+line-height:24px; 
+font-family:"HelveticaNeue-Light", sans-serif; 
+font-weight:300; 
+height: 750px;
+width: 826px;
+}
+
+.client {
+height: 26px;
+width: 190px;	
+}
+
+.clientM {
+height: 16px;
+width: 168px;
+float: left;
+background: linear-gradient(to bottom right, white, #D4DAEF, white);
+font-size: .8em;
+font-weight:800;
+text-align: center;
+margin-bottom: 10px;
+margin-right: 22px;
+}
+
+.clientK {
+height: 16px;
+width: 168px;
+float: left;
+background: linear-gradient(to bottom right, white, #EFC8C0, white);
+font-size: .8em;
+font-weight:800;
+text-align: center;
+margin-bottom: 10px;
+margin-right: 22px;
+}
+
+.clientE {
+height: 16px;
+width: 168px;
+float: left;
+background: linear-gradient(to bottom right, white, #C5D6B9, white);
+font-size: .8em;
+font-weight:800;
+text-align: center;
+margin-bottom: 10px;
+margin-right: 22px;
+}
+
+.clientP {
+height: 16px;
+width: 168px;
+float: left;
+background: linear-gradient(to bottom right, white, #FEDBB4, white);
+font-size: .8em;
+font-weight:800;
+text-align: center;
+margin-bottom: 10px;
+margin-right: 22px;
+}
+
+.clientC {
+height: 16px;
+width: 168px;
+float: left;
+background: linear-gradient(to bottom right, white, #DFCCE4, white);
+font-size: .8em;
+font-weight:800;
+text-align: center;
+margin-bottom: 10px;
+margin-right: 22px;
+}
+
+.genre {
+height: 35px;
+width: 190px;
+float: left;
+font-weight:200;
+text-align: center;
+vertical-align: text-center;
+}
+
+.navTop {
+height: 25px;
+float: left;
+font-size: .9em;
+font-weight:800;
+text-align: center;
+font-style: oblique;
+}
+
+.thumb {
+height: 110px;
+width: 106px;
+float: left;
+}
+
+#top{
+height: 155px;
+width: 830px;	
+}
+
+#clientPanel{
+height: 595px;
+width: 190px;	
+}
+
+#gallery{
+height: 595px;
+width: 636px;	
+}
+
+#thumbStrip {
+height: 110px;
+width: 636px;
+}
+
+#bigPic {
+height: 400px;
+width: 636px;
+}
+
+#navBottom {
+height: 85px;
+width: 636px;
+}
+
+#next {
+height: 85px;
+width: 95px;
+float: left;
+}
+
+#prev {
+height: 85px;
+width: 95px;
+float: right;
+}
+
+#clientInfo {
+font-size: .9em;
+text-align: center;
+}
+
+#clientName {
+font-weight:800;
+text-align: center;
+}
