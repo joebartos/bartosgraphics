@@ -19,7 +19,7 @@
      <!--max-width:100%; max-height:100%;-->
       <div id="design">graphic design <span id="and">AND</span> illustration</div>
       <div id="navStrip"> 
-        <p class="navTop" style="text-align: right; width: 60px">RESUME</p>
+        <p class="navTop" style="text-align:right; width: 60px">RESUME</p>
         <p class="navTop" style= "width: 80px">ILLUSTRATION</p>
         <p class="navTop" style= "width: 60px">DESIGN</p>
         <p class="navTop" style= "width: 50px">ABOUT</p>
@@ -27,7 +27,7 @@
     </div>
       
     <div id="clientPanel">
-      <p id="clientName" style= "height:20px; width:168px; line-height:50px">DESIGN CLIENTS</p>
+      <p id="clientName" style= "height:20px; width:168px; line-height:50px; margin-bottom: 20px">DESIGN CLIENTS</p>
       <p class="genre">Magazine</p>
       <p class="clientM">Time Warner</p> 
       <p class="clientM">American Media</p>
@@ -35,14 +35,14 @@
       <p class="clientK">Scholastic</p> 
       <p class="clientK">Barnes and Noble/Sterling</p>
       <p class="clientK">Planet Dexter</p>
-      <p class="genre">Educational</p>
+      <p class="genre" style="color:5A8246">Educational</p>
       <p class="clientE">Addison Wesley</p> 
       <p class="clientE">Workman/LucasFilm</p>
       <p class="clientE">Planet Dexter</p>
       <p class="genre">Packaging</p>
       <p class="clientP">JW Pet</p> 
       <p class="genre">Covers</p>
-      <p class="clientK">Book and Magazine</p> 
+      <p class="clientC">Book and Magazine</p> 
     </div>
     
     <div id="gallery">
@@ -56,14 +56,16 @@
       </div>
       <div id="bigPic"> <img src="img/galleryBig.jpg"/></div>
     <div id="navBottom"> 
-        <div id="navigateL" class="FL" onclick="prevImage()">
+        <div id="prev" onclick="prevImage()">
           <p>&#9664; PREVIOUS</p>
         </div>
-        <div> 
-          <H2></H2>
-          <p></p>
+        <div id="clientBlock"> 
+          <p id="clientName">Barnes and Noble/Sterling</p>
+          <p class="clientInfo">
+            Design, Art buying, Illustration and InDesign, Quark, Photoshop and Illustrator production of picture books, humorous books and book series
+          </p>
         </div>
-        <div id="navigateR" class="FR" onclick="nextImage()">
+        <div id="next" onclick="nextImage()">
           <p>NEXT &#9654;</p>
         </div>
       </div>
