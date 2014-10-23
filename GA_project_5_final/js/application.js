@@ -1,5 +1,5 @@
-var images = ["img/jbWeb14_KbookBig1.jpg", "img/jbWeb14_KbookBig2.jpg", "img/jbWeb14_KbookBig3.jpg", 
-"img/jbWeb14_KbookBig4.jpg", "img/jbWeb14_KbookBig5.jpg", "img/jbWeb14_KbookBig6.jpg"];
+var images = ["img/galleryBig1.jpg", "img/galleryBig2.jpg", "img/galleryBig3.jpg", 
+"img/galleryBig4.jpg", "img/galleryBig5.jpg", "img/galleryBig6.jpg"];
 var currentImage = 0;
 
 function changePic(whichNum){
