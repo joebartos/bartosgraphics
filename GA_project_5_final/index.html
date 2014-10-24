@@ -3,6 +3,7 @@
 
   <head>
     <title>joebartos.com</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <link rel="stylesheet" href="css/main.css">
     <script type="text/javascript"
             src="js/application.js"
@@ -21,55 +22,35 @@
       <div id="navStrip"> 
         <p class="navTop" style="text-align:right; width: 60px">RESUME</p>
         <p class="navTop" style= "width: 80px">ILLUSTRATION</p>
-        <p class="navTop" style= "width: 60px">DESIGN</p>
+        <p class="navTop" onclick="location.href='indexTime.html'" style= "width: 60px" >DESIGN</p>
         <p class="navTop" style= "width: 50px">ABOUT</p>
       </div>
     </div>
       
-    <div id="clientPanel">
-      <p id="clientTag"; style= "height:20px; width:168px; line-height:50px; margin-bottom: 25px">DESIGN CLIENTS</p>
-      <p class="genre" style="color:#3152A5">Magazine</p>
-      <p class="client mag">Time Warner</p> 
-      <p class="client mag">American Media, Inc.</p>
-      <p class="genre" style="color:#BE1419">Children's books</p>
-      <p class="client kid">Scholastic</p> 
-      <p class="client kid">Barnes and Noble/Sterling</p>
-      <p class="client kid">Planet Dexter</p>
-      <p class="genre" style="color:#5A8246">Educational</p>
-      <p class="client edu">Addison Wesley</p> 
-      <p class="client edu">Workman/LucasFilm</p>
-      <p class="client edu">Pearson Education</p>
-      <p class="genre" style="color:#E69619">Packaging</p>
-      <p class="client pak">JW Pet</p> 
-      <p class="genre" style="color:#911E91">Covers</p>
-      <p class="client cov">Book and Magazine</p> 
+    <div id="about">
+      <div id="bio">  
+        <p class="bioBig">Joe has a passion for </p><p class="bioSmall">expressing ideas with images and words. He found an early creative outlet as an award winning editorial cartoonist for his high school and college newspaper. Joe branched out from there with the paper as a columnist, editor and art director, later founding his own campus periodical with friends.<p>
+
+        <p class="bioSmall">After a brief stint in Denver as a newspaper cartoonist and designer, Joe moved on to graduate school in NYC and a career in graphic arts. Primarily designing and illustrating magazines and books on a project basis or as a long term freelancer, he has handled the full print design cycle in his 25+ years in New York.</p>
+
+        <p class="bioBig">His work experience includes:</p><p class="bioSmall">prototyping, layout, art buying, illustration and handling production for many NY media companies. He has also recruited, trained and supervised designers and illustrators for a number of publishing projects. Design clients have included Time Warner, Hearst, the NY Times, Disney, Scholastic, Macmillan, McGraw Hill, Barnes and Noble, the Discovery Channel, the Comedy Channel, National Lampoon and Pearson Education, among others.</p>
+
+        <p class="bioSmall">The latest chapter in Joe&#8217;s life has led him to add digital publishing and website design to his resume after further studies in NYC. Sensing a chance to participate in how images and words will increasingly be merged in the 21st century, he looks forward to creating beautiful designs and images for a new generation.</p>
+      </div>
+      <div id="markets">
+        <p class="market">MAGAZINES</p>
+        <p class="marketSample"><img src="img/AboutMag.jpg"/></p>
+        <p class="market">CHILDREN'S BOOKS</p>
+        <p class="marketSample"><img src="img/AboutKid.jpg"/></p>
+        <p class="market">EDUCATIONAL</p>
+        <p class="marketSample"><img src="img/AboutEdu.jpg"/></p>
+        <p class="market">PACKAGING</p>
+        <p class="marketSample"><img src="img/AboutPak.jpg"/></p>
+      </div>
+      
     </div>
     
-    <div id="gallery">
-      <div id="thumbStrip">
-        <div class="thumb" onClick="changePic(0)"> <img src="img/thumbs1.jpg"/> </div>
-        <div class="thumb" onClick="changePic(1)"> <img src="img/thumbs2.jpg"/> </div>
-        <div class="thumb" onClick="changePic(2)"> <img src="img/thumbs3.jpg"/> </div>
-        <div class="thumb" onClick="changePic(3)"> <img src="img/thumbs4.jpg"/> </div>
-        <div class="thumb" onClick="changePic(4)"> <img src="img/thumbs5.jpg"/> </div>
-        <div class="thumb" onClick="changePic(5)"> <img src="img/thumbs6.jpg"/> </div>
-      </div>
-      <div id="bigPic"> <img id="mainImage" src="img/galleryBig1.jpg"/> </div>
-    <div id="navBottom"> 
-        <div id="prev" onclick="prevImage()">
-          <p>&#9664; PREVIOUS</p>
-        </div>
-        <div id="clientBlock"> 
-          <p id="clientName">Barnes and Noble/Sterling</p>
-          <p class="clientInfo">
-            Design, Art buying, Illustration and InDesign, Quark, Photoshop and Illustrator production of picture books, humorous books and book series
-          </p>
-        </div>
-        <div id="next" onclick="nextImage()">
-          <p>NEXT &#9654;</p>
-        </div>
-      </div>
-    </div>
+    
   
   </body>
 </html>

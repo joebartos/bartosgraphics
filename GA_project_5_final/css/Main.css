@@ -1,8 +1,9 @@
 body{
-font-size: 12px; line-height:14px; 
+font-size: 12px; line-height:14px;
 font-family:"HelveticaNeue", sans-serif; font-weight:200; 
 height: 760px; width: 826px;
-}
+} 
+
 
 img {max-width: 100%; max-height: 100%;}
 
@@ -23,7 +24,7 @@ float: left;
 height: 125px; width: 500px; line-height:7em; 
 font-family:"Times New Roman", Times, serif; 
 font-weight:200; font-size: 2em; float: left;
-text-align: left; font-style: oblique; letter-spacing: 2px
+text-align: left; font-style: oblique; letter-spacing: 2px;
 }
 
 #and{
@@ -32,6 +33,24 @@ font-family:"HelveticaNeue", sans-serif; font-style: normal;
 }
 
 #navStrip {height: 20px; width: 520px; float: right;}
+
+#about {height: 555px; width: 826px; float: left;}
+
+#bio {height: 550px; width: 295px; margin-right: 25px; 
+	margin-top: 10px; float: left;}
+
+.bioBig {font-weight:600; font-size:1.75em; color:#BE1419; font-style: italic;
+font-family:"Times New Roman", Times, serif; margin-bottom: 5px}
+
+.bioSmall {font-weight:200; font-size:1.1em; line-height:1.1em; color:black; font-style: normal;
+font-family:"Times New Roman", Times, serif; margin-top:0px;}
+
+#markets {height: 555px; width: 500px; float: left;  margin-top: 30px; line-height:1em;}
+
+.market {font-weight:200; font-size: 1.15em; font-style: italic; margin: 0px; line-height:1em;
+font-family:"HelveticaNeue", helvetica, sans-serif; letter-spacing: 10px; margin: 0px;}
+
+.marketSample{height: 110px; width: 500px; margin: 0px; line-height:.1em;}
 
 #clientPanel{height: 595px; width: 190px; float: left; margin-top:15px;}
 
@@ -95,7 +114,8 @@ background: linear-gradient(to right, white, #DFCCE4, white);
 
 #gallery {height:595px; width:636px; float:left; margin-top:10px;}
 
-#thumbStrip {height: 70px; width: 640px; float: left; margin-bottom:10px; padding-top: 15px;}
+#thumbStrip {height: 70px; width: 640px; float: left; 
+	margin-bottom:10px; padding-top: 15px; padding-left: 2px;}
 
 .thumb {height: 57px; width: 102px; float: left; border: 2px solid white;}
 
