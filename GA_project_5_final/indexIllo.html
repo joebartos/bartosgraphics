@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>joebartos.com</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script type="text/javascript"
+            src="js/application.js"
+            type="text/javascript"
+            src="js/jquery.js"
+            > 
+     </script>
+  </head>
+
+  <body>
+
+  	<div id="top">
+      <div id="banner"> <img src="img/banner.jpg"/> </div>
+     <!--max-width:100%; max-height:100%;-->
+      <div id="design">graphic design <span id="and">AND</span> illustration</div>
+      <div id="navStrip"> 
+        <p class="navTop"
+        onclick="location.href='img/BartosResume2014.pdf'" target="_blank" 
+        style="text-align:right; width: 60px">RESUME</p>
+        <p class="navTop" onclick="location.href='indexIllo.html'" style= "width: 80px">ILLUSTRATION</p>
+        <p class="navTop" onclick="location.href='index.html'" style= "width: 60px">DESIGN</p>
+        <p class="navTop" onclick="location.href='indexAbout.html'" style= "width: 50px">ABOUT</p>
+      </div>
+    </div>
+      
+    <div id="clientPanel">
+      <div id="topLeftTag">
+      <p class="skill">ILLUSTRATION</p>  
+      <p class="skill">STYLES AND MEDIA</p>
+      </div>
+      <div id="lowLeftTag">
+      <p class="category cartoon">Cartoon</p>
+      <p class="media cart" onclick="changeIllo(0)">Ink and airbrush</p> 
+      <p class="media cart" onclick="changeIllo(1)">Ink and flat color</p>
+      <p class="media cart" onclick="changeIllo(2)">Pencil and watercolor</p>
+      <p class="media cart" onclick="changeIllo(3)">Pen and ink</p>
+      <p class="category realist">Realistic</p>
+      <p class="media real" onclick="changeIllo(4)">Pen and ink</p> 
+      <p class="media real" onclick="changeIllo(5)">Color pencil</p>
+      </div>
+    </div>
+    
+    <div id="gallery">
+      <div id="thumbStrip">
+        <div class="thumb" onClick="changeIllo(0)"> <img src="img/BigIllo1thumb.jpg"/> </div>
+        <div class="thumb" onClick="changeIllo(1)"> <img src="img/BigIllo2thumb.jpg"/> </div>
+        <div class="thumb" onClick="changeIllo(2)"> <img src="img/BigIllo3thumb.jpg"/> </div>
+        <div class="thumb" onClick="changeIllo(3)"> <img src="img/BigIllo4thumb.jpg"/> </div>
+        <div class="thumb" onClick="changeIllo(4)"> <img src="img/BigIllo5thumb.jpg"/> </div>
+        <div class="thumb" onClick="changeIllo(5)"> <img src="img/BigIllo6thumb.jpg"/> </div>
+      </div>
+      <div id="bigPic"> <img id="mainImage" src="img/BigIllo1.jpg"/> </div>
+    <div id="navBottom"> 
+        <div id="prev" onclick="prevIlloImage()">
+          <p>&#9664; PREVIOUS</p>
+        </div>
+        <div id="clientBlock"> 
+          <!-- <p id="clientName">Illustration</p>
+          <p class="clientInfo">
+            Designed weekly large print editon of Illo Magazine.</p>
+          </p> -->
+        </div>
+        <div id="next" onclick="nextIlloImage()">
+          <p>NEXT &#9654;</p>
+        </div>
+      </div>
+    </div>
+  
+  </body>
+</html>

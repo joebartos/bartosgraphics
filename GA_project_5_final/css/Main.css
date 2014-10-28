@@ -59,10 +59,51 @@ font-family:"HelveticaNeue", helvetica, sans-serif; letter-spacing: 10px; margin
 #clientTag { font-weight:600; font-size: 1em; text-align:center; 
 	height:20px; width:168px; line-height:50px; margin-bottom: 29px}
 
+#topLeftTag {height:20px; width:168px; line-height:50px; 
+	margin-bottom: 10px; margin-top: 40px}
+
+#lowLeftTag {}
+
 .genre {
 height: 15px; width: 168px; float: left; line-height: 2em; margin-top: 8px;
 font-weight:200; text-align: center; vertical-align: text-center; margin-bottom:12px;
 }
+
+.skill {font-weight:600; font-size: 1em; 
+	text-align:center; height:20px; width:168px; 
+	line-height:1em; margin-bottom: 0px;
+	margin-top: 0px}
+
+.media {
+height: 15px; width: 168px; float: left; line-height: 2em; margin-top: 8px;
+font-weight:200; text-align: center; vertical-align: text-center; margin-bottom:2px;
+}
+
+.media:hover{color:red; cursor:pointer;}
+
+.category {
+height: 16px; width: 168px; float: left;
+font-size: .8em; font-weight:800; text-align: center; line-height:1.75em;
+margin-bottom: 5px; margin-right: 22px; margin-left: 0px; margin-top: 25px;
+color: black;}
+
+.cartoon {
+background: -webkit-linear-gradient(left, white, #DFCCE4, white);
+background: -o-linear-gradient(right, white, #DFCCE4, white);
+background: -moz-linear-gradient(right, white, #DFCCE4, white);
+background: linear-gradient(to right, white, #DFCCE4, white);
+}
+
+.realist {
+background: -webkit-linear-gradient(left, white, #C5D6B9, white);
+background: -o-linear-gradient(right, white, #C5D6B9, white);
+background: -moz-linear-gradient(right, white, #C5D6B9, white);
+background: linear-gradient(to right, white, #C5D6B9, white);
+}
+
+.cart {color:#911E91}
+
+.real {color:#5A8246}
 
 .client {
 height: 16px; width: 168px; float: left;

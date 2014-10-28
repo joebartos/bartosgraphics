@@ -26,33 +26,6 @@ function prevTimeImage() {
 	img.setAttribute('src', imagesTime[currentImage]);
 }
 
-var imagesSchol = ["img/ScholBig1.jpg", "img/ScholBig2.jpg", "img/ScholBig3.jpg", 
-"img/ScholBig4.jpg", "img/ScholBig5.jpg", "img/ScholBig6.jpg"];
-var currentImage = 0;
-
-function changeSchol(whichNum){
-	var img = document.getElementById('mainImage');
-	img.setAttribute('src', imagesSchol[whichNum]);
-	currentImage = whichNum;
-}
-
-function nextScholImage() {
-	currentImage++;
-	if(currentImage>=imagesSchol.length){
-		currentImage=0;
-	}
-	var img = document.getElementById('mainImage');
-	img.setAttribute('src', imagesSchol[currentImage]);
-}
-
-function prevScholImage() {
-	currentImage=currentImage-1;
-	if(currentImage===-1){
-		currentImage=0;
-	}
-	var img = document.getElementById('mainImage');
-	img.setAttribute('src', imagesSchol[currentImage]);
-}
 
 var imagesAfl = ["img/AFLBig1.jpg", "img/AFLBig2.jpg", "img/AFLBig3.jpg", 
 "img/AFLBig4.jpg", "img/AFLBig5.jpg", "img/AFLBig6.jpg"];
@@ -306,4 +279,30 @@ function prevCovImage() {
 	img.setAttribute('src', imagesCov[currentImage]);
 }
 
+var imagesIllo = ["img/BigIllo1.jpg", "img/BigIllo2.jpg", "img/BigIllo3.jpg", 
+"img/BigIllo4.jpg", "img/BigIllo5.jpg", "img/BigIllo6.jpg"];
+var currentImage = 0;
 
+function changeIllo(whichNum){
+	var img = document.getElementById('mainImage');
+	img.setAttribute('src', imagesIllo[whichNum]);
+	currentImage = whichNum;
+}
+
+function nextIlloImage() {
+	currentImage++;
+	if(currentImage>=imagesIllo.length){
+		currentImage=0;
+	}
+	var img = document.getElementById('mainImage');
+	img.setAttribute('src', imagesIllo[currentImage]);
+}
+
+function prevIlloImage() {
+	currentImage=currentImage-1;
+	if(currentImage===-1){
+		currentImage=0;
+	}
+	var img = document.getElementById('mainImage');
+	img.setAttribute('src', imagesIllo[currentImage]);
+}
