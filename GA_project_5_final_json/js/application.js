@@ -1,4 +1,3 @@
-
 var clients = [
 	{ // These are objects with keys, e.g. name and their values, "Time Warner"
 		img: ["img/TimeBig1thumb.jpg", "img/TimeBig2thumb.jpg", "img/TimeBig3thumb.jpg", 
@@ -12,9 +11,64 @@ var clients = [
 		img: ["img/AFLBig1thumb.jpg", "img/AFLBig2thumb.jpg", "img/AFLBig3thumb.jpg", 
 		"img/AFLBig4thumb.jpg", "img/AFLBig5thumb.jpg", "img/AFLBig6thumb.jpg"],
 		bigImg: ["img/AFLBig1.jpg", "img/AFLBig2.jpg", "img/AFLBig3.jpg", 
-"img/AFLBig4.jpg", "img/AFLBig5.jpg", "img/AFLBig6.jpg"],
+		"img/AFLBig4.jpg", "img/AFLBig5.jpg", "img/AFLBig6.jpg"],
 		name: "American Media, Inc.",
 		clientInfo: "Designed Arena Football League preseason and playoff special issues. Handled InDesign production, client meetings, photo shoot supervision, color proofing, edit input and releasing files to printer."
+	},
+	{
+		img: ["img/ScholBig1thumb.jpg", "img/ScholBig2thumb.jpg", "img/ScholBig3thumb.jpg", 
+		"img/ScholBig4thumb.jpg", "img/ScholBig5thumb.jpg", "img/ScholBig6thumb.jpg"],
+		bigImg: ["img/ScholBig1.jpg", "img/ScholBig2.jpg", "img/ScholBig3.jpg", "img/ScholBig4.jpg", "img/ScholBig5.jpg", "img/ScholBig6.jpg"],
+		name: "Scholastic Publishing",
+		clientInfo: "Designed, handled production and illustrated humor books, textbooks and promotional materials. Supervised promotional art staf and hired and supervised freeelance designers."
+	},
+	{
+		img: ["img/SterBig1thumb.jpg", "img/SterBig2thumb.jpg", "img/SterBig3thumb.jpg", "img/SterBig4thumb.jpg", "img/SterBig5thumb.jpg", "img/SterBig6thumb.jpg"],
+		bigImg: ["img/SterBig1.jpg", "img/SterBig2.jpg", "img/SterBig3.jpg", "img/SterBig4.jpg", "img/SterBig5.jpg", "img/SterBig6.jpg"],
+		name: "Barnes and Noble/Sterling",
+		clientInfo: "Designed and handled producution of picture books and book series."
+		},
+
+	{
+		img: ["img/DexBig1thumb.jpg", "img/DexBig2thumb.jpg", "img/DexBig3thumb.jpg", "img/DexBig4thumb.jpg", "img/DexBig5thumb.jpg", "img/DexBig6thumb.jpg"],
+		bigImg: ["img/DexBig1.jpg", "img/DexBig2.jpg", "img/DexBig3.jpg", "img/DexBig4.jpg", "img/DexBig5.jpg", "img/DexBig6.jpg"],
+		name: "Planet Dexter",
+		clientInfo: "Designed, illustrated, bought art and handled production of kid's humorous trivia books."
+	},
+
+	{
+		img: ["img/AWBig1thumb.jpg", "img/AWBig2thumb.jpg", "img/AWBig3thumb.jpg", "img/AWBig4thumb.jpg", "img/AWBig5thumb.jpg", "img/AWBig6thumb.jpg"],
+		bigImg: ["img/AWBig1.jpg", "img/AWBig2.jpg", "img/WLBig3.jpg", "img/AWBig4.jpg", "img/AWBig5.jpg", "img/AWBig6.jpg"],
+		name: "Addison Wesley",
+		clientInfo: "Designed and bought art for math encyclopedia and math workbooks for early elementary school market."
+	},
+	{
+		img: ["img/SWWbig1thumb.jpg", "img/SWWbig2thumb.jpg", "img/SWWbig3thumb.jpg", "img/SWWbig4thumb.jpg", "img/SWWbig5thumb.jpg", "img/SWWbig6thumb.jpg"],
+		bigImg: ["img/SWWbig1.jpg", "img/SWWbig2.jpg", "img/SWWbig3.jpg", "img/SWWbig4.jpg", "img/SWWbig5.jpg", "img/SWWbig6.jpg"],
+		name: "LucaFilm/Workman Publishing",
+		clientInfo: "Prototyped, designed, purchased art, input edits, handled Photoshop, Illustrator and InDesign production and released files to printer for series of 12 Star Wars themed PK-G2 workbooks. Hired, trained and supervised designers and illustrators (2,000 + illustrations)"
+	},
+	{
+		img: ["img/PearBig1thumb.jpg", "img/PearBig2thumb.jpg", "img/PearBig3thumb.jpg", "img/PearBig4thumb.jpg", "img/PearBig5thumb.jpg", "img/PearBig6thumb.jpg"],
+		bigImg: ["img/PearBig1.jpg", "img/PearBig2.jpg", "img/PearBig3.jpg", "img/PearBig4.jpg", "img/PearBig5.jpg", "img/PearBig6.jpg"],
+		name: "Pearson Education",
+		clientInfo: "Designed literature selections for elementary school textbooks"
+	},
+	{
+		img: ["img/PetBig1thumb.jpg", "img/PetBig2thumb.jpg", "img/PetBig3thumb.jpg", "img/PetBig4thumb.jpg", "img/PetBig5thumb.jpg", "img/PetBig6thumb.jpg"],
+		bigImg: ["img/PetBig1.jpg", "img/PetBig2.jpg", "img/PetBig3.jpg", "img/PetBig4.jpg", "img/PetBig5.jpg", "img/AFLBig6.jpg"],
+		name: "JW Pet",
+		clientInfo: "Designed, handled production and released files to printer for series 
+		of 6 pet habitat boxes"
+	},
+	{
+		img: ["img/CovBig1thumb.jpg", "img/CovBig2thumb.jpg", "img/CovBig3thumb.jpg", 
+		"img/CovBig4thumb.jpg", "img/CovBig5thumb.jpg", "img/CovBig6thumb.jpg"],
+		bigImg: ["img/CovBig1.jpg", "img/CovBig2.jpg", "img/CovBig3.jpg", 
+		"img/CovBig4.jpg", "img/CovBig5.jpg", "img/CovBig6.jpg"],
+		name: "Book and Magazine Covers",
+		clientInfo: "Designed, bought art, handled InDesign and Photoshop production, 
+		and released files to printer for NY publishers"
 	}
 ]
 

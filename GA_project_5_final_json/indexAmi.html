@@ -27,9 +27,9 @@
     </div>
       
     <div id="clientPanel">
-      <p id="clientTag";>DESIGN CLIENTS</p>
+      <p id="clientTag">DESIGN CLIENTS</p>
       <p class="genre" style="color:#3152A5">Magazine</p>
-      <p class="client mag">Time Warner</p> 
+      <p class="client mag" onclick="changeClient(0)'">Time Warner</p> 
       <p class="client mag" onclick="location.href='indexAmi.html'">American Media, Inc.</p>
       <p class="genre" style="color:#BE1419">Children's books</p>
       <p class="client kid">Scholastic</p> 
@@ -47,26 +47,26 @@
     
     <div id="gallery">
       <div id="thumbStrip">
-        <div class="thumb" onClick="changeTime(0)"> <img src="img/TimeBig1thumb.jpg"/> </div>
-        <div class="thumb" onClick="changeTime(1)"> <img src="img/TimeBig2thumb.jpg"/> </div>
-        <div class="thumb" onClick="changeTime(2)"> <img src="img/TimeBig3thumb.jpg"/> </div>
-        <div class="thumb" onClick="changeTime(3)"> <img src="img/TimeBig4thumb.jpg"/> </div>
-        <div class="thumb" onClick="changeTime(4)"> <img src="img/TimeBig5thumb.jpg"/> </div>
-        <div class="thumb" onClick="changeTime(5)"> <img src="img/TimeBig6thumb.jpg"/> </div>
+        <div class="thumb 0" onClick="changeImg(0)"> <img src="img/AFLBig1thumb.jpg"/> </div>
+        <div class="thumb 1" onClick="changeImg(1)"> <img src="img/AFLBig2thumb.jpg"/> </div>
+        <div class="thumb 2" onClick="changeImg(2)"> <img src="img/AFLBig3thumb.jpg"/> </div>
+        <div class="thumb 3" onClick="changeImg(3)"> <img src="img/AFLBig4thumb.jpg"/> </div>
+        <div class="thumb 4" onClick="changeImg(4)"> <img src="img/AFLBig5thumb.jpg"/> </div>
+        <div class="thumb 5" onClick="changeImg(5)"> <img src="img/AFLBig6thumb.jpg"/> </div>
       </div>
-      <div id="bigPic"> <img id="mainImage" src="img/TimeBig1.jpg"/> </div>
+      <div id="bigPic"> <img id="mainImage" src="img/AFLBig1.jpg"/> </div>
     <div id="navBottom"> 
-        <div id="prev" onclick="prevTimeImage()">
+        <div id="prev" onclick="prevAflImage()">
           <p>&#9664; PREVIOUS</p>
         </div>
         <div id="clientBlock"> 
-          <p id="clientName">Time Warner</p>
+          <p id="clientName">American Media, Inc.</p>
           <p class="clientInfo">
-            Designed weekly large print editon of Time Magazine.</p>
-          <p class="clientInfo">Handled Photoshop production, supervised staff and approved layouts.
+            Designed Arena Football League preseason and playoff special issues. Handled InDesign production, client meetings, photo shoot supervision, color proofing, edit input and releasing files to printer.
+
           </p>
         </div>
-        <div id="next" onclick="nextTimeImage()">
+        <div id="next" onclick="nextAflImage()">
           <p>NEXT &#9654;</p>
         </div>
       </div>

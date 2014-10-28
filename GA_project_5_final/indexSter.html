@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>joebartos.com</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script type="text/javascript"
+            src="js/application.js"
+            type="text/javascript"
+            src="js/jquery.js"
+            > 
+     </script>
+  </head>
+
+  <body>
+
+  	<div id="top">
+      <div id="banner"> <img src="img/banner.jpg"/> </div>
+     <!--max-width:100%; max-height:100%;-->
+      <div id="design">graphic design <span id="and">AND</span> illustration</div>
+      <div id="navStrip"> 
+        <p class="navTop" style="text-align:right; width: 60px">RESUME</p>
+        <p class="navTop" style= "width: 80px">ILLUSTRATION</p>
+        <p class="navTop" style= "width: 60px">DESIGN</p>
+        <p class="navTop" onclick="location.href='indexAbout.html'" style= "width: 50px">ABOUT</p>
+      </div>
+    </div>
+      
+     <div id="clientPanel">
+      <<p id="clientTag";>DESIGN CLIENTS</p>
+      <p class="genre" style="color:#3152A5">Magazine</p>
+      <p class="client mag" onclick="location.href='index.html'">Time Warner</p> 
+      <p class="client mag" onclick="location.href='indexAmi.html'">American Media, Inc.</p>
+      <p class="genre" style="color:#BE1419">Children's books</p>
+      <p class="client kid" onclick="location.href='indexSchol.html'">Scholastic</p> 
+      <p class="client kid" onclick="location.href='indexSter.html'">Barnes and Noble/Sterling</p>
+      <p class="client kid" onclick="location.href='indexDex.html'">Planet Dexter</p>
+      <p class="genre" style="color:#5A8246">Educational</p>
+      <p class="client edu" onclick="location.href='indexAW.html'">Addison Wesley</p> 
+      <p class="client edu" onclick="location.href='indexSWW.html'">Workman/LucasFilm</p>
+      <p class="client edu" onclick="location.href='indexPear.html'">Pearson Education</p>
+      <p class="genre" style="color:#E69619">Packaging</p>
+      <p class="client pak" onclick="location.href='indexPet.html'">JW Pet</p> 
+      <p class="genre" style="color:#911E91">Covers</p>
+      <p class="client cov" onclick="location.href='indexCov.html'">Book and Magazine</p> 
+    </div>
+    
+    <div id="gallery">
+      <div id="thumbStrip">
+        <div class="thumb" onClick="changeSter(0)"> <img src="img/SterBig1thumb.jpg"/> </div>
+        <div class="thumb" onClick="changeSter(1)"> <img src="img/SterBig2thumb.jpg"/> </div>
+        <div class="thumb" onClick="changeSter(2)"> <img src="img/SterBig3thumb.jpg"/> </div>
+        <div class="thumb" onClick="changeSter(3)"> <img src="img/SterBig4thumb.jpg"/> </div>
+        <div class="thumb" onClick="changeSter(4)"> <img src="img/SterBig5thumb.jpg"/> </div>
+        <div class="thumb" onClick="changeSter(5)"> <img src="img/SterBig6thumb.jpg"/> </div>
+      </div>
+      <div id="bigPic"> <img id="mainImage" src="img/SterBig1.jpg"/> </div>
+    <div id="navBottom"> 
+        <div id="prev" onclick="prevSterImage()">
+          <p>&#9664; PREVIOUS</p>
+        </div>
+        <div id="clientBlock"> 
+          <p id="clientName">Barnes and Noble/Sterling</p>
+          <p class="clientInfo">
+            Designed, handled production and illustrated humor books, textbooks and promotional materials. Supervised promotional art staff and hired and supervised freeelance designers.
+          </p>
+        </div>
+        <div id="next" onclick="nextSterImage()">
+          <p>NEXT &#9654;</p>
+        </div>
+      </div>
+    </div>
+  
+  </body>
+</html>

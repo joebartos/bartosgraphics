@@ -3,14 +3,9 @@
 
   <head>
     <title>joebartos.com</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <link rel="stylesheet" href="css/main.css">
-    <script type="text/javascript"
-            src="js/application.js"
-            type="text/javascript"
-            src="js/jquery.js"
-            > 
-     </script>
+    <script type="text/javascript" src="js/application.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
   </head>
 
   <body>
@@ -22,31 +17,55 @@
       <div id="navStrip"> 
         <p class="navTop" style="text-align:right; width: 60px">RESUME</p>
         <p class="navTop" style= "width: 80px">ILLUSTRATION</p>
-        <p class="navTop" onclick="location.href='indexGallery.html'" style= "width: 60px" >DESIGN</p>
-        <p class="navTop" style= "width: 50px">ABOUT</p>
+        <p class="navTop" style= "width: 60px">DESIGN</p>
+        <p class="navTop" onclick="location.href='indexAbout.html'" style= "width: 50px">ABOUT</p>
       </div>
     </div>
       
-    <div id="about">
-      <div id="bio">  
-        <p class="bioSmall">Joe has a passion for expressing ideas with images and words. He began as an award winning editorial cartoonist, branching out to art direction and illustration. Primarily designing and illustrating magazines and books, Joe has handled the full print design cycle in his 25+ years in New York. His professional experience includes prototyping, layout, art buying, photo shoot direction, illustration and handling production for many NY media companies. Mr. Bartos has also recruited, trained and supervised designers and illustrators for a number of publishing projects.</p> 
-
-        <p class="bioBig">Design clients include: </p><p class="bioSmall">Time Warner, Hearst, the NY Times, Disney, Scholastic, Macmillan, McGraw Hill, Barnes and Noble, the Discovery Channel, the Comedy Channel, National Lampoon and Pearson Education, among others. Recently, Joe has added digital publishing and website design to his resume. He has also returned to his cartooning roots, pitching projects he writes, illustrates and designs in cross-platform formats for national media companies.</p>
-      </div>
-      <div id="markets">
-        <p class="market" style="color:#3152A5">MAGAZINES</p>
-        <p class="marketSample"><img src="img/AboutMag.jpg"/></p>
-        <p class="market" style="color:#BE1419">CHILDREN'S BOOKS</p>
-        <p class="marketSample"><img src="img/AboutKid.jpg"/></p>
-        <p class="market" style="color:#008000">EDUCATIONAL</p>
-        <p class="marketSample"><img src="img/AboutEdu.jpg"/></p>
-        <p class="market" style="color:#E69619">PACKAGING</p>
-        <p class="marketSample"><img src="img/AboutPak.jpg"/></p>
-      </div>
-      
+    <div id="clientPanel">
+      <p id="clientTag";>DESIGN CLIENTS</p>
+      <p class="genre" style="color:#3152A5">Magazine</p>
+      <p class="client mag" onclick="changeClient(0)">Time Warner</p> 
+      <p class="client mag" onclick="changeClient(1)">American Media, Inc.</p>
+      <p class="genre" style="color:#BE1419">Children's books</p>
+      <p class="client kid" onclick="changeClient(2)">Scholastic</p> 
+      <p class="client kid" onclick="changeClient(3)">Barnes and Noble/Sterling</p>
+      <p class="client kid" onclick="changeClient(4)">Planet Dexter</p>
+      <p class="genre" style="color:#5A8246">Educational</p>
+      <p class="client edu" onclick="changeClient(5)">Addison Wesley</p> 
+      <p class="client edu" onclick="changeClient(6)">Workman/LucasFilm</p>
+      <p class="client edu" onclick="changeClient(7)">Pearson Education</p>
+      <p class="genre" style="color:#E69619">Packaging</p>
+      <p class="client pak" onclick="changeClient(8)">JW Pet</p> 
+      <p class="genre" style="color:#911E91">Covers</p>
+      <p class="client cov" onclick="changeClient(9)">Book and Magazine</p> 
     </div>
     
-    
+    <div id="gallery">
+      <div id="thumbStrip">
+        <div class="thumb 0" onClick="changeImg(0)"> <img src="img/TimeBig1thumb.jpg"/> </div>
+        <div class="thumb 1" onClick="changeImg(1)"> <img src="img/TimeBig2thumb.jpg"/> </div>
+        <div class="thumb 2" onClick="changeImg(2)"> <img src="img/TimeBig3thumb.jpg"/> </div>
+        <div class="thumb 3" onClick="changeImg(3)"> <img src="img/TimeBig4thumb.jpg"/> </div>
+        <div class="thumb 4" onClick="changeImg(4)"> <img src="img/TimeBig5thumb.jpg"/> </div>
+        <div class="thumb 5" onClick="changeImg(5)"> <img src="img/TimeBig6thumb.jpg"/> </div>
+      </div>
+      <div id="bigPic"> <img id="mainImage" src="img/TimeBig1.jpg"/> </div>
+    <div id="navBottom"> 
+        <div id="prev" onclick="prevImage()">
+          <p>&#9664; PREVIOUS</p>
+        </div>
+        <div id="clientBlock"> 
+          <p id="clientName">Time Warner</p>
+          <p class="clientInfo">
+            Designed weekly large print editon of Time Magazine. Handled Photoshop production, supervised staff and approved layouts.
+          </p>
+        </div>
+        <div id="next" onclick="nextImage()">
+          <p>NEXT &#9654;</p>
+        </div>
+      </div>
+    </div>
   
   </body>
 </html>

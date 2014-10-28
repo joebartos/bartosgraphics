@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>joebartos.com</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script type="text/javascript"
+            src="js/application.js"
+            type="text/javascript"
+            src="js/jquery.js"
+            > 
+     </script>
+  </head>
+
+  <body>
+
+  	<div id="top">
+      <div id="banner"> <img src="img/banner.jpg"/> </div>
+     <!--max-width:100%; max-height:100%;-->
+      <div id="design">graphic design <span id="and">AND</span> illustration</div>
+      <div id="navStrip"> 
+        <p class="navTop" style="text-align:right; width: 60px">RESUME</p>
+        <p class="navTop" style= "width: 80px">ILLUSTRATION</p>
+        <p class="navTop" style= "width: 60px">DESIGN</p>
+        <p class="navTop" onclick="location.href='indexAbout.html'" style= "width: 50px">ABOUT</p>
+      </div>
+    </div>
+      
+     <div id="clientPanel">
+      <p id="clientTag";>DESIGN CLIENTS</p>
+      <p class="genre" style="color:#3152A5">Magazine</p>
+      <p class="client mag" onclick="location.href='index.html'">Time Warner</p> 
+      <p class="client mag" onclick="location.href='indexAmi.html'">American Media, Inc.</p>
+      <p class="genre" style="color:#BE1419">Children's books</p>
+      <p class="client kid" onclick="location.href='indexSchol.html'">Scholastic</p> 
+      <p class="client kid" onclick="location.href='indexSter.html'">Barnes and Noble/Dexling</p>
+      <p class="client kid" onclick="location.href='indexDex.html'">Planet Dexter</p>
+      <p class="genre" style="color:#5A8246">Educational</p>
+      <p class="client edu" onclick="location.href='indexAW.html'">Addison Wesley</p> 
+      <p class="client edu" onclick="location.href='indexSWW.html'">Workman/LucasFilm</p>
+      <p class="client edu" onclick="location.href='indexPear.html'">Pearson Education</p>
+      <p class="genre" style="color:#E69619">Packaging</p>
+      <p class="client pak" onclick="location.href='indexPet.html'">JW Pet</p> 
+      <p class="genre" style="color:#911E91">Covers</p>
+      <p class="client cov" onclick="location.href='indexCov.html'">Book and Magazine</p> 
+    </div>
+    
+    <div id="gallery">
+      <div id="thumbStrip">
+        <div class="thumb" onClick="changeDex(0)"> <img src="img/DexBig1thumb.jpg"/> </div>
+        <div class="thumb" onClick="changeDex(1)"> <img src="img/DexBig2thumb.jpg"/> </div>
+        <div class="thumb" onClick="changeDex(2)"> <img src="img/DexBig3thumb.jpg"/> </div>
+        <div class="thumb" onClick="changeDex(3)"> <img src="img/DexBig4thumb.jpg"/> </div>
+        <div class="thumb" onClick="changeDex(4)"> <img src="img/DexBig5thumb.jpg"/> </div>
+        <div class="thumb" onClick="changeDex(5)"> <img src="img/DexBig6thumb.jpg"/> </div>
+      </div>
+      <div id="bigPic"> <img id="mainImage" src="img/DexBig1.jpg"/> </div>
+    <div id="navBottom"> 
+        <div id="prev" onclick="prevDexImage()">
+          <p>&#9664; PREVIOUS</p>
+        </div>
+        <div id="clientBlock"> 
+          <p id="clientName">Planet Dexter</p>
+          <p class="clientInfo">
+            Designed, illustrated, bought art and handled production of kid's humorous trivia books.</p>
+        </div>
+        <div id="next" onclick="nextDexImage()">
+          <p>NEXT &#9654;</p>
+        </div>
+      </div>
+    </div>
+  
+  </body>
+</html>
