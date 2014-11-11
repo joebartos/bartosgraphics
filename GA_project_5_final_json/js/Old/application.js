@@ -16,7 +16,7 @@ var clients = [
 		clientInfo: "Designed Arena Football League preseason and playoff special issues. Handled InDesign production, client meetings, photo shoot supervision, color proofing, edit input and releasing files to printer."
 	},
 	{
-		img: ["img/ScholBig1thumb.jpg", "img/ScholBig2thumb.jpg", "img/ScholBig3thumb.jpg",
+		img: ["img/ScholBig1thumb.jpg", "img/ScholBig2thumb.jpg", "img/ScholBig3thumb.jpg", 
 		"img/ScholBig4thumb.jpg", "img/ScholBig5thumb.jpg", "img/ScholBig6thumb.jpg"],
 		bigImg: ["img/ScholBig1.jpg", "img/ScholBig2.jpg", "img/ScholBig3.jpg", "img/ScholBig4.jpg", "img/ScholBig5.jpg", "img/ScholBig6.jpg"],
 		name: "Scholastic Publishing",
@@ -26,14 +26,16 @@ var clients = [
 		img: ["img/SterBig1thumb.jpg", "img/SterBig2thumb.jpg", "img/SterBig3thumb.jpg", "img/SterBig4thumb.jpg", "img/SterBig5thumb.jpg", "img/SterBig6thumb.jpg"],
 		bigImg: ["img/SterBig1.jpg", "img/SterBig2.jpg", "img/SterBig3.jpg", "img/SterBig4.jpg", "img/SterBig5.jpg", "img/SterBig6.jpg"],
 		name: "Barnes and Noble/Sterling",
-		clientInfo: "Designed and handled production of picture books and book series."
-	},
+		clientInfo: "Designed and handled producution of picture books and book series."
+		},
+
 	{
 		img: ["img/DexBig1thumb.jpg", "img/DexBig2thumb.jpg", "img/DexBig3thumb.jpg", "img/DexBig4thumb.jpg", "img/DexBig5thumb.jpg", "img/DexBig6thumb.jpg"],
 		bigImg: ["img/DexBig1.jpg", "img/DexBig2.jpg", "img/DexBig3.jpg", "img/DexBig4.jpg", "img/DexBig5.jpg", "img/DexBig6.jpg"],
 		name: "Planet Dexter",
 		clientInfo: "Designed, illustrated, bought art and handled production of kid's humorous trivia books."
 	},
+
 	{
 		img: ["img/AWBig1thumb.jpg", "img/AWBig2thumb.jpg", "img/AWBig3thumb.jpg", "img/AWBig4thumb.jpg", "img/AWBig5thumb.jpg", "img/AWBig6thumb.jpg"],
 		bigImg: ["img/AWBig1.jpg", "img/AWBig2.jpg", "img/WLBig3.jpg", "img/AWBig4.jpg", "img/AWBig5.jpg", "img/AWBig6.jpg"],
@@ -54,16 +56,20 @@ var clients = [
 	},
 	{
 		img: ["img/PetBig1thumb.jpg", "img/PetBig2thumb.jpg", "img/PetBig3thumb.jpg", "img/PetBig4thumb.jpg", "img/PetBig5thumb.jpg", "img/PetBig6thumb.jpg"],
-		bigImg: ["img/PetBig1.jpg", "img/PetBig2.jpg", "img/PetBig3.jpg", "img/PetBig4.jpg", "img/PetBig5.jpg", "img/PetBig6.jpg"],
+		bigImg: ["img/PetBig1.jpg", "img/PetBig2.jpg", "img/PetBig3.jpg", "img/PetBig4.jpg", "img/PetBig5.jpg", "img/AFLBig6.jpg"],
 		name: "JW Pet",
-		clientInfo: "Designed, handled production and released files to printer for series of 6 pet habitat boxes"
+		clientInfo: "Designed, handled production and released files to printer for series 
+		of 6 pet habitat boxes"
 	},
 	{
-		img: ["img/CovBig1thumb.jpg", "img/CovBig2thumb.jpg", "img/CovBig3thumb.jpg", "img/CovBig4thumb.jpg", "img/CovBig5thumb.jpg", "img/CovBig6thumb.jpg"],
-		bigImg: ["img/CovBig1.jpg", "img/CovBig2.jpg", "img/CovBig3.jpg", "img/CovBig4.jpg", "img/CovBig5.jpg", "img/CovBig6.jpg"],
+		img: ["img/CovBig1thumb.jpg", "img/CovBig2thumb.jpg", "img/CovBig3thumb.jpg", 
+		"img/CovBig4thumb.jpg", "img/CovBig5thumb.jpg", "img/CovBig6thumb.jpg"],
+		bigImg: ["img/CovBig1.jpg", "img/CovBig2.jpg", "img/CovBig3.jpg", 
+		"img/CovBig4.jpg", "img/CovBig5.jpg", "img/CovBig6.jpg"],
 		name: "Book and Magazine Covers",
-		clientInfo: "Designed, bought art, handled InDesign and Photoshop production, and released files to printer for NY publishers"
-	},
+		clientInfo: "Designed, bought art, handled InDesign and Photoshop production, 
+		and released files to printer for NY publishers"
+	}
 ]
 
 var pageIndex = 0;
@@ -134,32 +140,4 @@ function nextImage() { //nextImage function is referenced in indexGallery navBot
 	}
 	var img = document.getElementById('mainImage');
 	img.setAttribute('src', clientObj["bigImg"][currentImage]);
-}
-
-var imagesIllo = ["img/BigIllo1.jpg", "img/BigIllo2.jpg", "img/BigIllo3.jpg", 
-"img/BigIllo4.jpg", "img/BigIllo5.jpg", "img/BigIllo6.jpg"];
-var currentImage = 0;
-
-function changeIllo(whichNum){
-	var img = document.getElementById('mainImage');
-	img.setAttribute('src', imagesIllo[whichNum]);
-	currentImage = whichNum;
-}
-
-function nextIlloImage() {
-	currentImage++;
-	if(currentImage>=imagesIllo.length){
-		currentImage=0;
-	}
-	var img = document.getElementById('mainImage');
-	img.setAttribute('src', imagesIllo[currentImage]);
-}
-
-function prevIlloImage() {
-	currentImage=currentImage-1;
-	if(currentImage===-1){
-		currentImage=0;
-	}
-	var img = document.getElementById('mainImage');
-	img.setAttribute('src', imagesIllo[currentImage]);
 }

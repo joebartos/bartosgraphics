@@ -135,31 +135,3 @@ function nextImage() { //nextImage function is referenced in indexGallery navBot
 	var img = document.getElementById('mainImage');
 	img.setAttribute('src', clientObj["bigImg"][currentImage]);
 }
-
-var imagesIllo = ["img/BigIllo1.jpg", "img/BigIllo2.jpg", "img/BigIllo3.jpg", 
-"img/BigIllo4.jpg", "img/BigIllo5.jpg", "img/BigIllo6.jpg"];
-var currentImage = 0;
-
-function changeIllo(whichNum){
-	var img = document.getElementById('mainImage');
-	img.setAttribute('src', imagesIllo[whichNum]);
-	currentImage = whichNum;
-}
-
-function nextIlloImage() {
-	currentImage++;
-	if(currentImage>=imagesIllo.length){
-		currentImage=0;
-	}
-	var img = document.getElementById('mainImage');
-	img.setAttribute('src', imagesIllo[currentImage]);
-}
-
-function prevIlloImage() {
-	currentImage=currentImage-1;
-	if(currentImage===-1){
-		currentImage=0;
-	}
-	var img = document.getElementById('mainImage');
-	img.setAttribute('src', imagesIllo[currentImage]);
-}
